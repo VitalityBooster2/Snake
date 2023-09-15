@@ -23,7 +23,7 @@ namespace Snake
     public class Game1 : Game
     {
        
-        private readonly DirectoryInfo snakeSounds = new(@"Resources\Sounds\SnakeSound");
+        private readonly DirectoryInfo snakeSounds = new(@"Content\Sounds\SnakeSound");
         private List<SoundEffect> generalEffects;
         private GameState gameState = GameState.Start;
         private ColisionManager colisionManager;
