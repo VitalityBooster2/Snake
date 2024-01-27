@@ -45,6 +45,8 @@ namespace Snake
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+            
+            
         }
 
         protected override void Initialize()
@@ -57,8 +59,10 @@ namespace Snake
             updateables = new List<IUpdateable>();
             animatores = new List<Animator>();
             entities = new List<Entity>();
+
             _graphics.SynchronizeWithVerticalRetrace = true;
             this.IsFixedTimeStep = false;
+
             _graphics.ApplyChanges(); 
             base.Initialize();
         }
