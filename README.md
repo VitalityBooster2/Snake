@@ -1,5 +1,9 @@
 # Snake
 
+Copy Content floder to bin to run game
+
+
+
 
 In this project i tried to follow main programming principles and write code in Object oriented style
 
